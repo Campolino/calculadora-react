@@ -1,6 +1,6 @@
 const SimpleButtons = ({ value }) => {
   return (
-    <div key={value}>{value}</div>
+    <div className='grid-buttons' key={value}>{value}</div>
   )
 }
 

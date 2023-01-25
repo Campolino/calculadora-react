@@ -5,9 +5,42 @@
   text-align: center;
 }
 
+.App {
+  background-color: #5c4f4f;
+  padding: 2rem 1rem 1rem;
+  border-radius: 15px;
+}
+
 .grid {
   display: grid;
-  grid-template-columns: repeat(4, auto);
-  grid-template-rows: repeat(5, auto);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   gap: 1rem;
+}
+
+.grid-last-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2.5fr;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.display,
+.grid-buttons {
+  background-color: aliceblue;
+  border-radius: 5px;
+  color: black;
+}
+
+.display {
+  min-height: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.grid-buttons {
+  min-width: 2.5rem;
+  min-height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

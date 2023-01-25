@@ -1,6 +1,6 @@
 const Display = () => {
   return (
-    <div className="display">0000</div>
+    <div className="display"></div>
   )
 }
 
